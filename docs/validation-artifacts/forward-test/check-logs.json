@@ -1,0 +1,12 @@
+[
+  {
+    "path": ".harness/tasks/empty-mean/records/01788614485894420451-e807f6a927f744f0a9985c9ded2ccdde.json",
+    "status": "failed",
+    "log_tail": "test_empty_values_raise_descriptive_value_error (test_calculator.MeanTests.test_empty_values_raise_descriptive_value_error) ... ERROR\ntest_mean_of_regular_values (test_calculator.MeanTests.test_mean_of_regular_values) ... ok\n\n======================================================================\nERROR: test_empty_values_raise_descriptive_value_error (test_calculator.MeanTests.test_empty_values_raise_descriptive_value_error)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/workspace/work/forward-test/tests/test_calculator.py\", line 12, in test_empty_values_raise_descriptive_value_error\n    mean([])\n  File \"/workspace/work/forward-test/calculator.py\", line 2, in mean\n    return sum(values) / len(values)\n           ~~~~~~~~~~~~^~~~~~~~~~~~~\nZeroDivisionError: division by zero\n\n----------------------------------------------------------------------\nRan 2 tests in 0.002s\n\nFAILED (errors=1)\n"
+  },
+  {
+    "path": ".harness/tasks/empty-mean/records/01788614521196988933-367b1ac9516c4b5fbe1143fdf0c836af.json",
+    "status": "passed",
+    "log_tail": "test_empty_values_raise_descriptive_value_error (test_calculator.MeanTests.test_empty_values_raise_descriptive_value_error) ... ok\ntest_mean_of_regular_values (test_calculator.MeanTests.test_mean_of_regular_values) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "installed_skill_files_modified": [],
+  "original_AGENTS_bytes_preserved_as_prefix": true,
+  "original_AGENTS_conventions_followed": [
+    "stdlib unittest used",
+    "descriptive regression test name",
+    "public function docstring documents ValueError"
+  ]
+}

@@ -1,0 +1,1 @@
+README.md の calcu1ator を calculator に直してください。1 を l に置き換える一文字だけの修正です。

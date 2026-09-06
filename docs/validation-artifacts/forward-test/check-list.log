@@ -1,0 +1,34 @@
+{
+  "unit": {
+    "argv": [
+      "{python}",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": ".",
+    "timeout_seconds": 30,
+    "category": "test",
+    "risks": [
+      "low",
+      "medium",
+      "high",
+      "critical"
+    ],
+    "kinds": [
+      "feature",
+      "bug",
+      "refactor",
+      "test",
+      "migration",
+      "security",
+      "performance",
+      "data",
+      "ml",
+      "platform"
+    ]
+  }
+}

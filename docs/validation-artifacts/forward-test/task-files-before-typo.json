@@ -1,0 +1,12 @@
+{
+  ".harness/tasks/empty-mean/baseline.json": "d48a7cc806333cd77498c125724023df6d874f602730e059993fe7a1e93073af",
+  ".harness/tasks/empty-mean/completion.json": "cdf16d7ab167907d53128d4460dd08222acd98087ee18cb47f6fa687e3bcf119",
+  ".harness/tasks/empty-mean/handoff.md": "4631a421c3e8606eb515cefaad14b4bdebfb3d61cb95a82bdd08067d68e82e8c",
+  ".harness/tasks/empty-mean/records/01788614485894420451-e807f6a927f744f0a9985c9ded2ccdde.json": "f720a1c479e73b8eee6ab44fc4afe48bb533fc98274f3c64446e9e348e7e6364",
+  ".harness/tasks/empty-mean/records/01788614521196988933-367b1ac9516c4b5fbe1143fdf0c836af.json": "91c51d781819d0c4fdb53e6a27b2482487a502c355e5591aa21abde9ef85b793",
+  ".harness/tasks/empty-mean/records/01788614611179464803-9c48f15088af43b3b42048d1b4dd90e2.json": "562b04e1b58913d7b2132e47af56fec713b1fdeab9300d3018c9de0cc53f5598",
+  ".harness/tasks/empty-mean/records/01788614612332728841-1a03bb19edf64d499c4beff801a52edb.json": "561695923532b8f02b3a8228fa6f59256d681208eca1af9dc7edeac41dc63660",
+  ".harness/tasks/empty-mean/records/01788614614815372695-0b250891fa2d469bb55c0718a8fd1d77.json": "0699598f9ebbf1f9a935cd8f4e064400601e3cd1cf7988cafbf0a820e93fdb91",
+  ".harness/tasks/empty-mean/review.md": "8ad1abed73d34c75ce91281066220b8fc8485a4756a7562025f43aebab99917f",
+  ".harness/tasks/empty-mean/task.json": "36ffa1acba977bea9fea110606b5faf07eda9536193a2be7b3a3cb201f998db5"
+}

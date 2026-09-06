@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-05T13:23:36.595466+00:00",
+  "summary": "Empty input now raises the requested ValueError, the regression and existing normal-input tests pass, self-review found no blocking issue, and handoff.md records behavior, evidence, compatibility, and local-only delivery.",
+  "gate": {
+    "schema_version": 1,
+    "task": "empty-mean",
+    "ready": true,
+    "meaning": "Local evidence readiness only; not deployment authorization or proof of correctness",
+    "risk": "medium",
+    "signals": [],
+    "required_controls": [],
+    "checks": {
+      "unit": "passed"
+    },
+    "acceptance": {
+      "A1": "recorded",
+      "A2": "recorded"
+    },
+    "issues": [],
+    "seal": {
+      "contract": "6e025032e5591699d728596c335d587b58a981a5a29983f6e147a67cbd070db7",
+      "snapshot": "d27e5e1c4c98b0ea2fcd97bb1df999e339b04cac88d710be53741bb9a24e1d95",
+      "requirements": "544b911b3f2bd2fa3dd3b6394ce9c9faa0b639083fad2a2250b3491f897e5812"
+    },
+    "snapshot_mode": "git",
+    "snapshot_files": 19
+  }
+}

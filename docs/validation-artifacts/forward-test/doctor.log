@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "project": "forward-test",
+  "root": "/workspace/work/forward-test",
+  "snapshot_mode": "git",
+  "snapshot_files": 19,
+  "checks": [
+    "unit"
+  ],
+  "warnings": []
+}

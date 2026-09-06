@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Harness"
+  short_description: "開発の目的・受入条件・実装・検証・提供と運用を、リスクに応じてつなぐ"
+  default_prompt: "$delivery-harness この依頼を、既存の実装と指示を確認し、受入条件とリスクに見合う検証まで進めてください。"

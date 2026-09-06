@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "name": "keelway",
+  "checks": {
+    "unit": {
+      "argv": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "category": "test",
+      "timeout_seconds": 120,
+      "kinds": [
+        "feature",
+        "bug",
+        "refactor",
+        "test",
+        "migration",
+        "security",
+        "performance",
+        "data",
+        "ml",
+        "platform"
+      ]
+    }
+  },
+  "fingerprint_exclude": [
+    "work/**",
+    "docs/validation-artifacts/**"
+  ],
+  "max_snapshot_bytes": 536870912,
+  "risk_rules": [
+    {
+      "patterns": [
+        "migrations/**",
+        "**/migrations/**"
+      ],
+      "signal": "schema"
+    },
+    {
+      "patterns": [
+        "auth/**",
+        "**/auth/**"
+      ],
+      "signal": "auth"
+    },
+    {
+      "patterns": [
+        "payments/**",
+        "**/payments/**"
+      ],
+      "signal": "payments"
+    },
+    {
+      "patterns": [
+        ".github/workflows/**",
+        "terraform/**"
+      ],
+      "signal": "production"
+    }
+  ]
+}

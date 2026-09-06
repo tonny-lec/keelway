@@ -1,0 +1,10 @@
+{
+  "fixture": "/workspace/work/retry-demo-final",
+  "before_fix": "unit: failed (0.064s, exit=1)\n  record: .harness/tasks/retry-bound/records/01788615694962688910-1b4dea1cb7134bb9893f4b9a3101657c.json",
+  "after_fix": "unit: passed (0.064s, exit=0)\n  record: .harness/tasks/retry-bound/records/01788615696056891521-a7038385e6b243a49489492798c32c59.json",
+  "ready_after_evidence": true,
+  "source_edit_invalidates_evidence": true,
+  "fixture_test_count": 3,
+  "final_source": "fixed",
+  "external_actions": false
+}

@@ -1,0 +1,16 @@
+{
+  "changed_characters": [
+    {
+      "byte_offset": 39,
+      "before": "1",
+      "after": "l"
+    }
+  ],
+  "task_evidence_files_unchanged": true,
+  "task_directories": [
+    "empty-mean"
+  ],
+  "new_tests_written": false,
+  "test_command_run_for_typo": false,
+  "independent_review_added": false
+}

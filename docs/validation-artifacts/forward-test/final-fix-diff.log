@@ -1,0 +1,26 @@
+diff --git a/calculator.py b/calculator.py
+index f2f8920..6d8056b 100644
+--- a/calculator.py
++++ b/calculator.py
+@@ -1,2 +1,5 @@
+ def mean(values):
++    """Return the arithmetic mean; raise ValueError when values is empty."""
++    if len(values) == 0:
++        raise ValueError("values must not be empty")
+     return sum(values) / len(values)
+diff --git a/tests/test_calculator.py b/tests/test_calculator.py
+index 552f719..df8d3f5 100644
+--- a/tests/test_calculator.py
++++ b/tests/test_calculator.py
+@@ -7,6 +7,11 @@ class MeanTests(unittest.TestCase):
+     def test_mean_of_regular_values(self):
+         self.assertEqual(mean([2, 4, 6]), 4)
+ 
++    def test_empty_values_raise_descriptive_value_error(self):
++        with self.assertRaises(ValueError) as caught:
++            mean([])
++        self.assertEqual(str(caught.exception), "values must not be empty")
++
+ 
+ if __name__ == "__main__":
+     unittest.main()

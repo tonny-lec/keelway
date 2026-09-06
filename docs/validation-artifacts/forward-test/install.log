@@ -1,0 +1,22 @@
+{
+  "status": "installing",
+  "root": "/workspace/work/forward-test",
+  "files": [
+    ".agents/skills/delivery-harness/SKILL.md",
+    ".agents/skills/delivery-harness/agents/openai.yaml",
+    ".agents/skills/delivery-harness/assets/context.md",
+    ".agents/skills/delivery-harness/references/delivery.md",
+    ".agents/skills/delivery-harness/references/discovery.md",
+    ".agents/skills/delivery-harness/references/engineering.md",
+    ".agents/skills/delivery-harness/references/operations.md",
+    ".agents/skills/delivery-harness/references/runtime.md",
+    ".agents/skills/delivery-harness/references/specialized.md",
+    ".agents/skills/delivery-harness/scripts/harness.py",
+    ".harness/project.json",
+    ".harness/context.md",
+    ".harness/.gitignore",
+    "AGENTS.md",
+    ".harness/install.json"
+  ]
+}
+Installed. Configure .harness/project.json with actual project checks, then run doctor.
